@@ -39,7 +39,7 @@ for m in range(len(x1)):
             x1[n] = temp
 
 for i in range(len(x)):
-    if x[i] == x1[2] and y[i] == y1[2]:
+    if x[i] == x1[24] and y[i] == y1[24]:
         player1 = i
 
 # for i in range(len(x)):
