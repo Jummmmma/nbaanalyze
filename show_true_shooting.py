@@ -76,7 +76,7 @@ def get_efg_graph(num1,num2):
     plt.plot(x, predicted_y, color = 'black')                    # line: Add line for regression line w/ predicted values
     plt.title('NBA - Relationship Between FGA and EFG')          # Give it a title
     plt.xlabel('FGA per Game')                                   # Label x-axis
-    plt.ylabel('Effective Field Goal Percentage')                                # Label y-axis
+    plt.ylabel('True Field Goal Percentage')                                # Label y-axis
     plt.text(10,25, f'R2={r2}')
     plt.annotate(df.PLAYER[player1_1],                       # This the name of the top scoring player. Refer to the .head() from earlier
                 (x[player1], eFG[player1]),                       # This is the point we want to annotate.  
@@ -89,7 +89,7 @@ def get_efg_graph(num1,num2):
 
     # Finally, let's save an image called 'graph.png'. 
     # We'll set the dpi (dots per inch) to 300, so we have a nice looking picture.
-    plt.savefig('eFG.png', dpi=300)
+    plt.savefig('TrueFG.png', dpi=300)
 
 # Show most and least eFG of Players who are shooting a lot of top num
 get_efg_graph(1,60)
