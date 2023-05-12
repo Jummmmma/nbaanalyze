@@ -74,7 +74,7 @@ def get_efg_graph(num1,num2):
     # Now, lets make a plot with matplot lib using a iterative approach (which is easy to read)
     plt.scatter(x, eFG, s=15, alpha=.5)                            # Scatterplot:  Specfiy size(s) and transparency(alpha) of dots
     plt.plot(x, predicted_y, color = 'black')                    # line: Add line for regression line w/ predicted values
-    plt.title('NBA - Relationship Between FGA and EFG')          # Give it a title
+    plt.title('NBA - Relationship Between FGA and TrueFG')          # Give it a title
     plt.xlabel('FGA per Game')                                   # Label x-axis
     plt.ylabel('True Field Goal Percentage')                                # Label y-axis
     plt.text(10,25, f'R2={r2}')
