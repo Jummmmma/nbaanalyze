@@ -5,10 +5,10 @@ import drawcourt
 # Path: show_shot_chart.py
 # Show shot chart of specific player
 
-# Damian Lillard
-player_id = 203081
+# Shaquille O'Neal
+player_id = 406
 # 2019-20 season
-Season = "2019-20"
+Season = "1999-00"
 # All games
 n_games = 0
 # All teams
